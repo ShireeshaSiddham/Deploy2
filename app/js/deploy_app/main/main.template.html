@@ -1,0 +1,275 @@
+﻿<div ng-controller="DemoBasicCtrl as ctrl" ng-cloak="" class="menuBardemoBasicUsage">
+    <md-toolbar>
+        <div layout="row">
+            <md-menu-content style="width:100%;align-items:flex-end">
+                <table>
+                    <tr>
+
+                        <td>
+                            <md-menu-bar>
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Home
+                                    </button>
+                                    <md-menu-content>
+                                    </md-menu-content>
+                                </md-menu>
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Search
+                                    </button>
+                                    <md-menu-content>
+                                    </md-menu-content>
+                                </md-menu>
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Main Menu
+                                        <md-icon md-svg-icon="js/res/image/down-arrow.svg" style="width:4px"></md-icon>
+                                    </button>
+                                    <md-menu-content>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MenuSearch', $event)">
+                                                Search
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('EnterpriseDataCatalog', $event)">
+                                                Enterprise Data Catalog
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('BusinessTermsGlossary', $event)">
+                                                Business Terms Glossary
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('UserRequestManagement', $event)">
+                                                User Request Management
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('InterfaceandJobDesign', $event)">
+                                                Interface and Job Design
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('BusinessProcessManagement', $event)">
+                                                Business Process Management
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('SystemInformation', $event)">
+                                                System Information
+                                            </md-button>
+                                        </md-menu-item>
+
+                                    </md-menu-content>
+                                </md-menu>
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        My Data
+                                        <md-icon md-svg-icon="js/res/image/down-arrow.svg" style="width:4px"></md-icon>
+                                    </button>
+                                    <md-menu-content>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyDataObjects', $event)">
+                                                My Data Objects
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyDataCatalog', $event)">
+                                                My Data Catalog
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyRequestLog', $event)">
+                                                My Request Log
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Reports
+                                        <md-icon md-svg-icon="js/res/image/down-arrow.svg" style="width:4px"></md-icon>
+                                    </button>
+                                    <md-menu-content>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyDataObjects', $event)">
+                                                Standard Reports
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyDataCatalog', $event)">
+                                                Data Object Lists
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Interface/Job Design
+                                        <md-icon md-svg-icon="js/res/image/down-arrow.svg" style="width:4px"></md-icon>
+                                    </button>
+                                    <md-menu-content>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('ViewAll', $event)">
+                                                View All
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('NewJobRequest', $event)">
+                                                New Job Request
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MyJobRequests', $event)">
+                                                My Job Requests
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('AssignedToMe', $event)">
+                                                Assigned To Me
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Metrics', $event)">
+                                                Metrics
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('BusinessView', $event)">
+                                                Business View
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+
+                                <md-menu>
+                                    <button ng-click="$mdOpenMenu()">
+                                        Configuration
+                                        <md-icon md-svg-icon="js/res/image/down-arrow.svg" style="width:4px"></md-icon>
+                                    </button>
+                                    <md-menu-content>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Listboxes', $event)">
+                                                Listboxes
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('CustomAttributes', $event)">
+                                                Custom Attributes
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('ObjectTypes', $event)">
+                                                Object Types
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Taxonomy', $event)">
+                                                Taxonomy
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Employees', $event)">
+                                                Employees
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('DatasetTypes', $event)">
+                                                Dataset Types
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('DatabaseTypes', $event)">
+                                                Database Types
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('HelpDatasets', $event)">
+                                                Help Datasets
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('JobQueueTypes', $event)">
+                                                Job Queue Types
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('MapActions', $event)">
+                                                Map Actions
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('DataClassifications', $event)">
+                                                Data Classifications
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Projects', $event)">
+                                                Projects
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('CheckTables', $event)">
+                                                Check Tables
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('DivisionsandDepartments', $event)">
+                                                Divisions and Departments
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('PriorityCalculated', $event)">
+                                                Priority Calculated
+                                            </md-button>
+                                        </md-menu-item>
+                                        <md-menu-item class="md-indent">
+                                            <md-button ng-click="ctrl.sampleAction('Parameters', $event)">
+                                                Parameters
+                                            </md-button>
+                                        </md-menu-item>
+                                    </md-menu-content>
+                                </md-menu>
+
+                                <md-menu>
+                                    <button ng-click="ctrl.sampleAction('Lineage', $event)">
+                                        Lineage
+                                    </button>
+                                    <md-menu-content>
+                                    </md-menu-content>
+                                </md-menu>
+                            </md-menu-bar>
+
+                        </td>
+                        <td style="width:10%">
+                            <div><a href="" ng-click="logout()" target="_self">Logout</a></div>
+
+                        </td>
+                    </tr>
+                </table>
+            </md-menu-content>
+        </div>
+
+    </md-toolbar>
+
+</div>
+
+<div layout="row" layout-md="column" flex="100" style="height:85vh">
+  
+    <div flex="100" style="height: 100%;">
+        <div layout="column" style="height:100%">
+            <div flex="100" style="height:100%;background-color:#D6EAF8;">
+                <!--<md-toolbar class="md-hue1 concento-sub-title" layout="column">
+                    <div class="md-toolbar-tools">Navigation</div>
+                </md-toolbar>-->
+              
+            </div>
+        </div>
+    </div>
+   
+</div>

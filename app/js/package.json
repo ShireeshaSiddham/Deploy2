@@ -1,0 +1,14 @@
+{
+  "name": "Deploy2",
+  "description": "Deploy App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-cookies": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-route": "^1.6.4"
+  }
+}

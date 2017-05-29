@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html ng-app="deployApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="js/res/font/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="js/node_modules/angular-material/angular-material.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="js/css/concento.css" />
+
+    <!--JS Files-->
+    <script src="js/node_modules/angular/angular.js"></script>
+    <script src="js/node_modules/angular-route/angular-route.js"></script>
+    <script src="js/node_modules/angular-aria/angular-aria.js"></script>
+    <script src="js/node_modules/angular-animate/angular-animate.js"></script>
+    <script src="js/node_modules/angular-material/angular-material.js"></script>
+    <script src="js/node_modules/angular-cookies/angular-cookies.js"></script>
+
+    <script src="js/deploy_app/authentication/login.module.js"></script>
+    <script src="js/deploy_app/authentication/login.component.js"></script>
+    <script src="js/deploy_app/authentication/services.js"></script>
+
+    <script src="js/deploy_app/main/main.module.js"></script>
+    <script src="js/deploy_app/main/main.component.js"></script>
+
+    <script src="js/deploy_app/home.module.js"></script>
+    <script src="js/deploy_app/home.config.js"></script>
+
+</head>
+<body>
+    <div ng-view style="max-height:100%">
+
+    </div>
+</body>
+</html>
